@@ -70,6 +70,7 @@ bluetooth_proxy:
 uart:
   rx_pin: GPIO16
   baud_rate: 4800
+  parity: even
 
 time:
   - platform: homeassistant
